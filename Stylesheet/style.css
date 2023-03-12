@@ -1,0 +1,366 @@
+html {
+	scroll-behavior: smooth;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	color: black;
+	font-family: "Montserrat";
+}
+
+/* Sub-header */
+
+/* .sub-header img {
+	width: 15%;
+}
+.sub-header button {
+	background-color: #253b70;
+	color: white;
+	padding: 6px 20px;
+}
+.button {
+	float: right;
+} */
+
+/* Sub-header End */
+
+/* Navbar */
+
+.navbar-bg {
+	background-color:#024F9D;
+	;
+}
+.nav-link {
+	font-size: 14px;
+	color: black;
+	transition: ease-in-out 0.3s;
+}
+.nav-link:hover {
+	transition: ease-in-out 0.3s;
+	color: #faeaad;
+	font-weight: 700;
+}
+
+/* Navbar End */
+
+/* Banner Section Start */
+
+.banner {
+	background: url("../Assets/Banner/banner.png");
+	background-size: cover;
+	background-size: 100% 100%;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.banner-text {
+	text-align: center;
+	padding: 8% 0px;
+}
+.banner-text h5 {
+	font-size: 1.4vw;
+	color: #61B846;
+	font-weight: 700 !important;
+}
+.banner-text h1 {
+	color: #61B846;
+	font-size: 2.2vw;
+	font-weight: 700 !important;
+	margin: 0px;
+	padding: 0px;
+}
+.banner-text p {
+	padding: 1vw 0vw;
+	font-size: 1.3vw;
+	color: #61B846;
+	width: 35%;
+	margin: auto;
+	padding-top: 0 auto;
+	font-weight: 900;
+}
+.banner-text button {
+	background: #61B846;
+	color: white;
+	font-size: 1.2vw;
+	padding: 0.5vw 1vw;
+	font-weight: 900;
+	transition: ease-in-out 0.3s;
+}
+.banner-text button:hover {
+	background: white;
+	color: #61B846;
+	border: 1px solid black;
+	font-weight: 900;
+	transition: ease-in-out 0.3s;
+}
+
+/* Media Quries */
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+	/* Banner Section Start */
+
+	.banner-text h1 {
+		margin: 0px;
+		padding: 0px;
+		font-size: 2.4vw;
+		font-weight: 900;
+	}
+	.banner-text h5 {
+		font-size: 2vw;
+		font-weight: 900;
+	}
+	.banner-text p {
+		padding: 10px 0px;
+		font-size: 1.8vw;
+		width: 40%;
+	}
+	.banner-text button {
+		font-size: 3vw;
+		padding: 0.5vw 1.5vw;
+	}
+
+	/* Banner Section Start */
+}
+
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+	/* Banner Section Start */
+
+	.banner-text h1 {
+		font-size: 2.4vw;
+		font-weight: 900;
+	}
+	.banner-text h5 {
+		font-size: 2vw;
+		font-weight: 900;
+	}
+	.banner-text p {
+		padding: 10px 0px;
+		font-size: 1.8vw;
+		width: 40%;
+	}
+	.banner-text button {
+		padding: 0.5vw 1.5vw;
+		font-size: 1.5vw;
+	}
+
+	/* Banner Section Start */
+}
+
+@media only screen and (max-width: 767px) {
+	/* Banner Section Start */
+
+	.banner-text h1 {
+		font-size: 3vw;
+		font-weight: 900;
+	}
+	.banner-text h5 {
+		font-size: 2.2vw;
+		margin-bottom: 2px;
+		font-weight: 900;
+	}
+	.banner-text p {
+		padding: 3px 0px;
+		margin-bottom: 0px;
+		font-size: 2vw;
+		width: 50%;
+	}
+	.banner-text button {
+		font-size: 1.8vw;
+		padding: 0.5vw 1.5vw;
+	}
+
+	/* Banner Section Start */
+}
+
+/* Media Quries End */
+
+/* Banner Section End */
+
+/* About Us */
+
+.about {
+	margin-bottom: 30px;
+}
+.about-text h5 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.about-text h6 {
+	font-size: 18px;
+	font-weight: 700;
+}
+.about-text p {
+	font-size: 16px;
+}
+.about-text button {
+	font-size: 16px;
+	font-weight: 700;
+	background: #61B846;
+	color: white;
+}
+.about-text button:hover {
+	background: #faf5e1;
+	color: #61B846;
+	border: 1px solid #61B846;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+/* About Us End */
+
+/* Collection */
+
+.collection {
+	background-image: url("../Assets/Collection/background.png");
+	background-size: cover;
+	background-size: 100% 100%;
+	padding-bottom: 30px;
+}
+.collection h1 {
+	padding: 30px 0px;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+}
+.collection .col-md-4 {
+	text-align: center;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 767px) {
+	/* Collection Start */
+
+	.collection {
+		background: none;
+		background-color: #faf5e1;
+	}
+	.collection h1 {
+		padding: 40px 0px;
+	}
+	.collection img {
+		padding-bottom: 30px;
+	}
+
+	/* Collection End */
+}
+
+/* Media Query End */
+
+/* Collection End */
+
+/* Mens Collection */
+
+.men-card .footer button {
+	font-size: 16px;
+	font-weight: 700;
+	background: #61B846;
+	color: white;
+}
+.men-card .footer button:hover {
+	background: #faf5e1;
+	color: #61B846;
+	border: 1px solid #61B846;
+	font-size: 16px;
+	font-weight: 700;
+}
+.men-main-img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.men-card .card-body {
+	text-align: center;
+}
+.men-card .card-body h6 {
+	text-align: center;
+}
+
+/* Mens Collection End */
+
+
+
+/* Kids Collection */
+
+.Kid-card .footer button {
+	font-size: 16px;
+	font-weight: 700;
+	background: #61B846;
+	color: white;
+}
+.Kid-card .footer button:hover {
+	background: #faf5e1;
+	color: #61B846;
+	border: 1px solid #61B846;
+	font-size: 16px;
+	font-weight: 700;
+}
+.Kid-main-img {
+	width: 100%;
+}
+.Kid-card .card-body {
+	text-align: center;
+}
+.Kid-card .card-body h6 {
+	text-align: center;
+}
+
+/* Kids Collection End */
+
+/* Services */
+.services {
+	background-color: #faf5e1;
+	padding: 30px 0px;
+	margin: 0px;
+}
+.card-body h5 {
+	color: black;
+	font-weight: 700;
+}
+.services .card-body p {
+	color: black;
+	text-align: center;
+}
+/* Services End */
+
+/* Footer Section */
+
+footer {
+	
+}
+.navigation-link a {
+	text-decoration: none;
+}
+footer img {
+	padding-top: 20px;
+	width: 60%;
+}
+footer p {
+	padding-top: 20px;
+	font-size: 14px;
+}
+.navigation-link h5 {
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.Service-link a {
+	text-decoration: none;
+}
+.Service-link h5 {
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.Contact a {
+	text-decoration: none;
+}
+.Contact h5 {
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.Contact p {
+	color: #61B846;
+	font-weight: 700;
+}
+
+/* Footer Section End */
